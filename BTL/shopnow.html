@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JOBARIA</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+</head>
+
+<body>
+    <script src="main.js"></script>
+
+    <section id="main">
+        <div class="header__logo">
+            <a href="index.html">Envato Market</a>
+        </div>
+    </section>
+    <section id="header">
+        <div class="header-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="logo__jb">
+                            <a href="index.html">
+                                <img src="img/1.webp" alt="JOBARIA Header-logo" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="header-search">
+                            <form class="header-search__box">
+                                <input type="text" class="form-control header-search__input"
+                                    placeholder="Enter your search key..." />
+                                <div class="header-search__icon">
+                                    <button type="submit">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="minicart">
+                            <a href="cart.html">
+                                <div class="minicart-icon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div class="minicart-text">
+                                    <span>My Cart</span>
+                                </div>
+                                <div class="total">
+                                    <span>0.00$</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar d-lg-block">
+            <div class="menu">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="index.html">shop</a>
+                    </li>
+                    <li>
+                        <a href="index.html">blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">pages <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="subnav">
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="error.html">404Error</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="about.html">about us</a>
+                    </li>
+                </ul>
+                <div class="hotline">
+                    <a href="#"> <i class="fa-solid fa-phone"></i> 012 345 6789x </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <nav aria-label="breadcrumb" class="container p">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html" class="text-black">Home</a></li>
+                <li class="breadcrumb-item active text-info" aria-current="page"> Shop Left Sidebar</li>
+            </ol>
+        </nav>
+        <hr>
+    </div>
+    <div class="container d-sm-block">
+        <div class="trai col-3 d-sm-flex">
+            <div>
+                <h4 class="text-uppercase">FASHION</h4>
+                <hr>
+                <p>Women</p>
+                <p>Men</p>
+                <p>Kids</p>
+                <h4 class="text-uppercase">Filter By</h4>
+                <hr>
+                <a href=""><button>Clear All</button></a>
+                <h4 class="mt-4">CATEGORIES</h4>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="gender" id="" value="{3:option1}" />
+                    <label class="form-check-label" for="Women">Women</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input " type="checkbox" name="gender" id="" value="option2" />
+                    <label class="form-check-label" for="Men">Men</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="gender" id="" value="option3" />
+                    <label class="form-check-label" for="Kids">Kids</label>
+                </div>
+                <h4 class="mt-3">brand</h4>
+
+                <div class="form-check">
+                    <input class="form-check-input " type="checkbox" name="gender" id="" value="option1" />
+                    <label class="form-check-label" for="Graphic Corner ">Graphic Corner </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="gender" id="" value="option2" />
+                    <label class="form-check-label" for="Studio Design">Studio Design</label>
+                </div>
+                <h4 class="mt-3">price</h4>
+
+                <div class="form-check">
+                    <input class="form-check-input " type="radio" name="gender" id="" value="option1" />
+                    <label class="form-check-label" for="$8.00 - $12.00">$8.00 - $12.00 </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="" value="option2" />
+                    <label class="form-check-label" for="$16.00 - $20.00">$16.00 - $20.00</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input " type="radio" name="gender" id="" value="option3" />
+                    <label class="form-check-label" for="$21.00 - $22.00">$21.00 - $22.00 </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="" value="option4" />
+                    <label class="form-check-label" for="$24.00 - $30.00">$24.00 - $30.00</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input " type="radio" name="gender" id="" value="option5" />
+                    <label class="form-check-label" for="
+                    $32.00 - $34.00">
+                        $32.00 - $34.00</label>
+                </div>
+
+                <h4 class="mt-3">size</h4>
+                <div class="form-check">
+                    <input class="form-check-input " type="checkbox" name="gender" id="" value="option1" />
+                    <label class="form-check-label" for="M">M</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="gender" id="" value="option2" />
+                    <label class="form-check-label" for="S">S</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input " type="checkbox" name="gender" id="" value="option3" />
+                    <label class="form-check-label" for="XL">XL</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="gender" id="" value="option4" />
+                    <label class="form-check-label" for="L">L</label>
+                </div>
+
+                <h4 class="mt-3">color</h4>
+                <div class="form-check">
+                    <input class="form-check-input " type="checkbox" name="gender" id="" value="option1" />
+                    <label class="form-check-label" for="White">White</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="gender" id="" value="option2" />
+                    <label class="form-check-label" for="Black">Black</label>
+                </div>
+
+                <h4 class="mt-3">dimension</h4>
+                <div class="form-check">
+                    <input class="form-check-input " type="checkbox" name="gender" id="" value="option1" />
+                    <label class="form-check-label" for="40x60cm">40x60cm</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="gender" id="" value="option2" />
+                    <label class="form-check-label" for="60x90cm">60x90cm</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input " type="checkbox" name="gender" id="" value="op40x60cm" />
+                    <label class="form-check-label" for="80x120cm">80x120cm</label>
+                </div>
+                <div>
+                    <img src="image/Ảnh chụp màn hình 2024-07-03 183837.png" style="width: 258.75px;height: 258.75px;"
+                        alt="">
+                    <h4 class="mt-3" style="font-weight: bold;text-transform: uppercase;">recommended</h4>
+                </div>
+                <div class="d-sm-flex">
+                    <img src="image/Janon.png" alt="" style="width: 80px;height: 80px;">
+                    <div class="d-sm-block">
+                        <a href="" class="text-black" style="margin-top: 4px;">Janon vista fhd 4k</a>
+                        <div class="d-sm-flex" id="mucluc">
+                            <span class="text-danger" id="spanred">$21.51</span>
+                            <span class="text-black" id="spanline">$21.51</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-flex">
+                    <img src="image/tv.png" style="width: 80px;height: 80px;" alt="">
+                    <div class="d-sm-block">
+                        <a href="" class="text-black" style="margin-top: 4px;">16GB Grade A Unlock</a>
+                        <div class="d-sm-flex" id="mucluc">
+                            <span class="text-danger" id="spanred">$21.51</span>
+                            <span class="text-black" id="spanline">$21.51</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-flex">
+                    <img src="image/xail.png" alt="" style="width: 80px;height: 80px;">
+                    <div class="d-sm-block">
+                        <a href="" class="text-black" style="margin-top: 4px;">xailStation 4 Pro</a>
+                        <div class="d-sm-flex" id="mucluc">
+                            <span class="text-danger" id="spanred">$21.51</span>
+                            <span class="text-black" id="spanline">$21.51</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-flex">
+                    <img src="image/laptop.png" alt="" style="width: 80px;height: 80px;">
+                    <div class="d-sm-block">
+                        <a href="" class="text-black" style="margin-top: 4px;">Full HD 8GB Flash</a>
+                        <div class="d-sm-flex" id="mucluc">
+                            <span class="text-danger" id="spanred">$21.51</span>
+                            <span class="text-black" id="spanline">$21.51</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="phai col-10">
+                <div>
+                    <img src="image/2.webp" alt="">
+                    <div class="d-sm-flex mt-4">
+                        <div class="d-sm-flex">
+                            <div class="col-9">
+                                There are 13 products.</div>
+                            <div class="col-5 d-sm-flex" style="margin-left: 120px;">
+                                <p class="col-4" style="font-weight: bold;">Sort By:</p>
+                                <select class=" form-select border-2 " name="luachon" id="luachon">
+                                    <option selected>Relevance</option>
+                                    <option value="1">Name,A to Z</option>
+                                    <option value="2">Name, Z to A</option>
+                                    <option value="3">Price, Low to Hight</option>
+                                    <option value="4">Price, Hight to Low</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-sm-flex hang">
+                    <div class="d-sm-block">
+                        <img src="image/1-1.webp" alt="">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">Janon vista fhd 4k
+                            </a>
+                            <br>
+                            <span id="giagoc" class="text-black
+                            ">$23.90</span>
+                            <span id="giamgia" class="text-danger">$21.51</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                    <div class="d-sm-block" style="margin-left: 110px;border-left: 1px solid rgb(211, 203, 203);">
+                        <img src="image/1-3.webp" style="margin-left: 20px;">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">Full HD 8GB Flash Memory
+                            </a>
+                            <br>
+                            <span id="giamgia" class="text-danger">$11.90</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                    <div class="d-sm-block" style="margin-left: 110px;border-left: 1px solid rgb(211, 203, 203);">
+                        <img src="image/1-4.webp" alt="">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">HD Video Recording
+                            </a>
+                            <br>
+
+                            <span id="giamgia" class="text-danger">$17.01</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="d-sm-flex hang mt-4">
+                    <div class="d-sm-block">
+                        <img src="image/1-3.webp" alt="">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">Full HD 8GB Flash Memory
+                            </a>
+                            <br>
+                            <span id="giamgia" class="text-danger">$11.90</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                    <div class="d-sm-block" style="margin-left: 110px;border-left: 1px solid rgb(211, 203, 203);">
+                        <img src="image/1-4.webp" style="margin-left: 20px;">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">HD Video Recording
+                            </a>
+                            <br>
+                            <span id="giamgia" class="text-danger">$11.90</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                    <div class="d-sm-block" style="margin-left: 110px;border-left: 1px solid rgb(211, 203, 203);">
+                        <img src="image/1-5.webp" alt="">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">720 Dgree Panoramic HD
+                            </a>
+                            <br>
+                            <span id="giamgia" class="text-danger">$29.51</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="d-sm-flex hang mt-4">
+                    <div class="d-sm-block">
+                        <img src="image/1-6.webp" alt="">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">Xail 9.7" 128GB iPad
+                            </a>
+                            <br>
+                            <span id="giamgia" class="text-danger">$29.00</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                    <div class="d-sm-block" style="margin-left: 110px;border-left: 1px solid rgb(211, 203, 203);">
+                        <img src="image/1-7.webp" style="margin-left: 20px;">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">Sanai Smartphone
+                            </a>
+                            <br>
+                            <span id="giamgia" class="text-danger">$18.90</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                    <div class="d-sm-block" style="margin-left: 110px;border-left: 1px solid rgb(211, 203, 203);">
+                        <img src="image/1-8.webp" alt="">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">Meito 12.2" Pentium
+                            </a>
+                            <br>
+                            <span id="giamgia" class="text-danger">$17.01</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="d-sm-flex hang mt-4">
+                    <div class="d-sm-block">
+                        <img src="image/1-9.webp" alt="">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">Xailbox 4 Pro 1TB
+                            </a>
+                            <br>
+                            <span id="giamgia" class="text-danger">$65.00</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                    <div class="d-sm-block" style="margin-left: 110px;border-left: 1px solid rgb(211, 203, 203);">
+                        <img src="image/1-10.webp" style="margin-left: 20px;">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">16GB GradeA Unlocked
+                            </a>
+                            <br>
+                            <span id="giamgia" class="text-danger">$35.00</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart">
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                    <div class="d-sm-block" style="margin-left: 110px;border-left: 1px solid rgb(211, 203, 203);">
+                        <img src="image/1-11.webp" alt="">
+                        <center>
+                            <p>Studio Design</p>
+                            <a href="preview.html" class="text-black">SanaFuel Wireless
+                            </a>
+                            <br>
+
+                            <span id="giamgia" class="text-danger">$31.21</span>
+                            <br>
+                            <br>
+                            <a href="cart.html"><button id="add-to-cart" preview.html>
+                                    add to cart
+                                </button></a>
+                        </center>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="khung">
+        <br><br><br>
+        <center>
+            <h2 class="text-uppercase">join our</h2>
+            <h3>newsletter now!</h3>
+            <p>Subscribe to the Jobaria mailing list to receive updates on new
+                arrivals,
+                offers </p>
+            <p>and other discount information.</p>
+            <form
+                action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                class="newsletters-form validate" target="_blank" novalidate="">
+                <div id="mc_embed_signup_scroll">
+                    <div id="mc-form" class="mc-form subscribe-form pt--15">
+                        <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your email address">
+                        <button class="newsletter-btn" id="mc-submit">
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </center>
+    </div>
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="footer-widget-info">
+                        <div class="footer-widget-info">
+                            <a href="#">
+                                <img src="img/footer-logo-1.webp" />
+                            </a>
+                        </div>
+                        <div class="short-desc">
+                            <p>
+                                There are many variations of passages of Lorem Ipsum
+                                available, but the majorited have suffered alteration.
+                            </p>
+                        </div>
+                        <div class="widget-address">
+                            <div class="footer-adress">
+                                <span>Address: TTG Shop 🐧</span>
+                            </div>
+
+                            <div class="footer-email">
+                                <span>Mail us:</span>
+                                <a href="#">abcd@gmail.com</a>
+                            </div>
+
+                            <div class="footer-phone">
+                                <span>Phone:</span>
+                                <a href="#">+012 345 678</a>
+                            </div>
+                        </div>
+                        <div class="footer-social-link">
+                            <ul>
+                                <li class="facebook">
+                                    <a href="https://www.facebook.com/" title="Facebook">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="x">
+                                    <a href="https://x.com/" title="X">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="youtube">
+                                    <a href="https://www.youtube.com/" title="Youtube">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="google">
+                                    <a href="#" title="Google">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="https://www.instagram.com/" title="Instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="footer-widget__banner">
+                        <div class="widget-banner">
+                            <a href="#">
+                                <img src="img/widgets-banner.webp" />
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="footer-widget__title">
+                                    <h5>Products</h5>
+                                </div>
+                                <div class="footer-widgets">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Legal Notice</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Prices Drop</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">New Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Best sales</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="footer-widget__title">
+                                    <h5>Our Company</h5>
+                                </div>
+                                <div class="footer-widgets">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Legal Notice</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sitemap</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Stores</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="footer-widget__title">
+                                    <h5>Your Account</h5>
+                                </div>
+                                <div class="footer-widgets">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Personal Info</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Orders</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Credit Slips</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Addresses</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">My Wishlists</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="copyright">
+                        <span>
+                            Copyright © 2022
+                            <a href="#">Jobaria.</a>
+                            All rights reserved.
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="payment">
+                        <a href="#">
+                            <img src="img/payment.webp" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+
+</html>
